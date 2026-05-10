@@ -1,0 +1,10 @@
+# Blush Meadow Rabbitry — Netlify Redirects
+# This file fixes the duplicate content SEO issue.
+# It ensures the .netlify.app subdomain always redirects
+# to your real domain so Google only indexes one version.
+#
+# IMPORTANT: Replace "blushmeadowrabbitry.com" with your actual domain name.
+
+https://blushmeadow.netlify.app/*   https://www.blushmeadowrabbitry.com/:splat   301!
+http://www.blushmeadowrabbitry.com/*  https://www.blushmeadowrabbitry.com/:splat  301!
+http://blushmeadowrabbitry.com/*      https://www.blushmeadowrabbitry.com/:splat  301!
